@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "../styles/Landing.module.css";
-import { Facebook, Instagram, Twitter, LinkedIn } from "@mui/icons-material";
+import { Facebook, Instagram, Twitter } from "@mui/icons-material";
 
 const Landing = () => {
   const images = [
