@@ -1,0 +1,234 @@
+.landing {
+  position: relative;
+  height: 90vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.imageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: zoomIn 10s infinite;
+  z-index: 0; /* Place it behind the text */
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Slight zoom-in */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Semi-transparent overlay for text visibility */
+  z-index: 1;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  z-index: 2; /* Ensure text is above the overlay */
+}
+
+.content h1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 300;
+  margin: 0;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add depth to text */
+}
+
+.content p {
+  font-size: 1rem;
+  font-family: "Parkinsans", serif;
+  color: white;
+  margin-top: 10px;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add depth to text */
+}
+
+.socialIcons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon {
+  fill: white; /* Default icon color */
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Scale up on hover */
+  fill: #185a9d; /* Gold color on hover */
+}
+
+.contactButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #43cea2, #185a9d);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contactButton:hover {
+  transform: scale(1.1); /* Scale up on hover */
+  background: linear-gradient(45deg, #43cea2, #185a9d); /* Reverse gradient */
+}
+
+.contactUs {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+}
+
+.logoContainer {
+  position: absolute;
+  bottom: 20px; /* Distance from the bottom of the .landing container */
+  right: 20px; /* Distance from the right of the .landing container */
+  background: rgba(255, 255, 255, 0.8); /* Light background for visibility */
+  padding: 2px; /* Padding around the logo */
+  border-radius: 50%; /* Circular look */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  z-index: 3; /* Ensure it is above the overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer img {
+  border-radius: 50%; /* Circular logo */
+  width: 90px; /* Adjust size as needed */
+  height: 90px; /* Adjust size as needed */
+}
+
+/* Extra Small Mobile Devices (Portrait) */
+/* iPhone SE, older Android phones */
+@media only screen and (max-width: 320px) {
+  .landing {
+    height: 50vh;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .logoContainer {
+    bottom: 10px; /* Reduce spacing for smaller screens */
+    right: 10px;
+  }
+
+  .logoContainer img {
+    width: 60px; /* Adjust size for responsiveness */
+    height: 60px;
+  }
+}
+
+/* Small Mobile Devices (Portrait) */
+/* iPhone 6/7/8, Galaxy S8 */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .landing {
+    height: 50vh;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .logoContainer {
+    bottom: 10px; /* Reduce spacing for smaller screens */
+    right: 10px;
+  }
+
+  .logoContainer img {
+    width: 60px; /* Adjust size for responsiveness */
+    height: 60px;
+  }
+}
+
+/* Medium Mobile Devices (Portrait) */
+/* iPhone 11 Pro, Google Pixel 2 */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .landing {
+    height: 60vh;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .logoContainer {
+    bottom: 10px; /* Reduce spacing for smaller screens */
+    right: 10px;
+  }
+
+  .logoContainer img {
+    width: 60px; /* Adjust size for responsiveness */
+    height: 60px;
+  }
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .logoContainer {
+    bottom: 10px; /* Reduce spacing for smaller screens */
+    right: 10px;
+  }
+
+  .logoContainer img {
+    width: 60px; /* Adjust size for responsiveness */
+    height: 60px;
+  }
+}

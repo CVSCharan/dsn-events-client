@@ -1,0 +1,117 @@
+.navbar {
+  height: 10vh;
+  background: linear-gradient(
+    90deg,
+    #43cea2,
+    #185a9d
+  ); /* Light Green to Deep Cyan */
+  color: white;
+  padding: 0.7rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Classic shadow effect */
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+  border-radius: 3px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Parkinsans", serif;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.navLinks li a:hover {
+  background: rgba(255, 255, 255, 0.2); /* Highlight effect */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: linear-gradient(
+      90deg,
+      #43cea2,
+      #185a9d
+    ); /* Same gradient as navbar */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .navLinks li {
+    margin: 10px 0;
+    padding: 0.3rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .active {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .navLinks li a {
+    font-size: 0.9rem;
+  }
+}
