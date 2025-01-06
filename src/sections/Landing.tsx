@@ -42,7 +42,7 @@ const Landing = () => {
       <div className={styles.overlay}></div>
       <div className={styles.content}>
         <h1 className="josefin-sans-text">DSN Events</h1>
-        <p>A Gowri Shankar's Venture</p>
+        <p>{`A Gowri Shankar's Venture`}</p>
         <div className={styles.socialIcons}>
           <a
             href="https://facebook.com"
