@@ -7,7 +7,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
-
 const IntroSection = () => {
   const [currentBannerOneImage, setCurrentBannerOneImage] = useState(0);
   const [currentBannerTwoImage, setCurrentBannerTwoImage] = useState(0);
@@ -40,7 +39,7 @@ const IntroSection = () => {
       setCurrentBannerTwoImage(
         (prev) => (prev + 1) % introBannerTwoImages.length
       );
-    }, 3000); // Change every 4 seconds
+    }, 5000); // Change every 4 seconds
 
     return () => clearInterval(interval);
   }, []);

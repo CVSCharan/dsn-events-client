@@ -83,7 +83,7 @@
 }
 
 .icon {
-  fill: white; /* Default icon color */
+  fill: white !important; /* Default icon color */
   transition: transform 0.3s ease, color 0.3s ease;
   text-decoration: none;
 }

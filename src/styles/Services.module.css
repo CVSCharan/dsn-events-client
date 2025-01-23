@@ -33,12 +33,11 @@
 }
 
 .servicesSubHeading {
-  color: black;
-  font-size: 1rem;
+  font-size: 1rem; /* Slightly larger text */
+  font-weight: 400;
+  color: #444;
+  line-height: 1.6;
   text-align: justify;
-  padding: 1px;
-  line-height: 1.5;
-  font-weight: 300;
   padding: 0.7rem;
   width: 90%;
   max-width: 900px;
@@ -63,7 +62,6 @@
 
 /* Individual Card */
 .servicesCard {
-  background: #fff;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -71,6 +69,7 @@
   text-align: center;
   padding: 1rem;
   width: 95%; /* Increased width for better alignment */
+  border-radius: 1rem;
 }
 
 /* Image */

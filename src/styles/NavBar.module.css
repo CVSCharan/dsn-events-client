@@ -58,8 +58,9 @@
   font-size: 0.9rem;
   padding: 5px 10px;
   border-radius: 5px;
-  font-family: "Parkinsans", serif;
+  font-family: "Montserrat", Sans-serif;
   transition: background 0.3s ease, transform 0.3s ease;
+  letter-spacing: 0.05rem;
 }
 
 .navLinks li a:hover {
@@ -89,16 +90,16 @@
       #43cea2,
       #185a9d
     ); /* Same gradient as navbar */
-    padding: 1.5rem 3rem;
+    padding: 0.7rem 2.7rem;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   }
 
   .navLinks li {
     margin: 10px 0;
-    padding: 0.3rem 1rem;
+    padding: 0.2rem 1rem;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .active {
