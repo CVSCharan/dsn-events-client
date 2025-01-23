@@ -1,6 +1,6 @@
 .landing {
   position: relative;
-  height: 65vh; /* Full viewport height */
+  height: 60vh; /* Full viewport height */
   display: flex;
   align-items: center;
   justify-content: center;

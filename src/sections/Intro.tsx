@@ -93,17 +93,19 @@ const IntroSection = () => {
             Unlock Your Dream Destination Wedding in Nellore
           </h2>
           <h3 className={styles.introSubHeading}>
-            {` Make your dream destination wedding a reality with DSN Event
-            Management, the premier choice in Andhra Pradesh, India. Whether you
-            envision a traditional ceremony or a luxurious resort celebration,
-            we seamlessly blend rich traditions with modern elegance to create
+            {`Make your dream destination wedding a reality with DSN Decors, the
+            premier choice for premium floral décor in Andhra Pradesh, India.
+            Whether you envision a traditional ceremony or a luxurious resort
+            celebration, we seamlessly blend rich traditions with modern
+            elegance, crafting breathtaking floral arrangements that create
             unforgettable experiences.`}
           </h3>
           <h3 className={styles.introSubHeading}>
-            {`With our expertise in venue selection and meticulous planning, we
-            ensure a stress-free journey from concept to execution. Having
-            served clients across PAN India, we are your trusted partner in
-            curating a flawless wedding celebration in Andhra Pradesh.`}
+            {`With our expertise in premium floral décor and meticulous attention
+            to detail, DSN Decors ensures a stress-free journey from concept to
+            execution. Having served clients across PAN India, we are your
+            trusted partner in curating breathtaking floral arrangements for a
+            flawless wedding celebration in Andhra Pradesh.`}
           </h3>
         </div>
         <div className={styles.btnContainer}>

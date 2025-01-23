@@ -46,14 +46,14 @@ const Landing = () => {
           animate="visible"
           whileHover="hover"
         >
-          DSN Events
+          DSN Décors
         </motion.h1>
         <motion.p
           variants={logoVariant}
           initial="hidden"
           animate="visible"
           whileHover="hover"
-        >{`A Gowri Shankar's Venture`}</motion.p>
+        >{`A venture by Gowri Shankar's Flower Decors`}</motion.p>
         <div className={styles.socialIcons}>
           {/* <a
             href="https://facebook.com"

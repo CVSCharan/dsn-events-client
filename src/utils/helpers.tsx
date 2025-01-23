@@ -35,56 +35,56 @@ export const servicesData: ServiceDataItem[] = [
   {
     id: 1,
     category: "Marriage",
-    desc: "Your wedding day is one of the most significant moments of your life, and we ensure it is nothing short of perfection. From venue selection to décor, catering, and entertainment, we handle every detail with elegance and precision, crafting an unforgettable celebration of love.",
+    desc: "Your wedding décor sets the stage for a truly magical celebration, and we ensure every detail reflects elegance and sophistication. From breathtaking floral arrangements to stunning stage setups, DSN Decors creates an enchanting ambiance tailored to your vision, making your special day truly unforgettable.",
     imgSrc:
       "https://github.com/CVSCharan/dsn-events-assets/blob/main/Marriage-stock-img.jpg?raw=true",
   },
   {
     id: 2,
     category: "Haldi Ceremony",
-    desc: "A vibrant and joyous pre-wedding ritual, the Haldi Ceremony is all about fun, colors, and traditions. We curate a lively and aesthetically pleasing setup, ensuring a perfect blend of cultural heritage and modern elegance.",
+    desc: "The Haldi Ceremony is a vibrant celebration of joy and tradition, and our floral décor enhances its beauty with bright, fragrant blooms. From marigold-adorned backdrops to elegant floral rangolis, DSN Decors creates a lively and picturesque setting, infusing your special moment with charm and cultural essence.",
     imgSrc:
       "https://github.com/CVSCharan/dsn-events-assets/blob/main/Haldi-stock-Img.jpg?raw=true",
   },
   {
     id: 3,
     category: "Engagement",
-    desc: "Mark the beginning of your journey together with a beautifully orchestrated Engagement Ceremony. Whether you prefer a grand affair or an intimate gathering, we create a magical ambiance that reflects your love story.",
+    desc: "Celebrate the beginning of your forever with exquisite floral décor for your Engagement Ceremony. At DSN Decors, we craft enchanting floral arrangements, elegant stage backdrops, and romantic settings that perfectly capture the essence of your love story, creating a breathtaking ambiance for your special moment.",
     imgSrc:
       "https://github.com/CVSCharan/dsn-events-assets/blob/main/engagement-stock-img.jpg?raw=true",
   },
   {
     id: 4,
     category: "Receptions",
-    desc: "Celebrate your union with a spectacular Wedding Reception designed to leave a lasting impression. From luxurious décor to exquisite catering and entertainment, we bring sophistication and style to your special evening.",
+    desc: "Celebrate your union with stunning floral décor for your Wedding Reception. At DSN Decors, we design elegant floral arrangements, grand centerpieces, and captivating backdrops that elevate the atmosphere, creating a sophisticated and unforgettable setting for your special evening.",
     imgSrc:
       "https://github.com/CVSCharan/dsn-events-assets/blob/main/receptions-stock-img.jpg?raw=true",
   },
   {
     id: 5,
     category: "Birthday Celebrations",
-    desc: "Make birthdays extra special with customized themes, entertainment, and flawless execution. Whether it’s a kids’ birthday party, milestone celebration, or a surprise event, we create joyous and memorable moments for you and your loved ones.",
+    desc: "Make birthdays extra special with our exquisite floral décor. Whether it’s a kids’ birthday party, a milestone celebration, or a surprise event, DSN Decors creates vibrant and elegant floral arrangements, tailored to your theme, to bring a joyous and memorable touch to your celebration.",
     imgSrc:
       "https://github.com/CVSCharan/dsn-events-assets/blob/main/birthdays-stock-img.jpg?raw=true",
   },
   {
     id: 6,
     category: "Baby Showers",
-    desc: "Welcome your little one with a heartwarming Baby Shower designed with love and creativity. From charming decorations to engaging activities, we make this special day truly delightful for parents-to-be and guests.",
+    desc: "Welcome your little one with a heartwarming Baby Shower, adorned with our enchanting floral décor. From charming floral arrangements to personalized touches, DSN Decors creates a warm and delightful atmosphere, making this special day unforgettable for parents-to-be and their guests.",
     imgSrc:
       "https://github.com/CVSCharan/dsn-events-assets/blob/main/baby-showers-stock-img.jpg?raw=true",
   },
   {
     id: 7,
     category: "Corporate & Social Events",
-    desc: "From corporate gatherings, product launches, conferences, award ceremonies, and gala nights to private social events, we ensure seamless planning and execution. Our expert team crafts professional yet engaging experiences tailored to your brand and vision.",
+    desc: "From corporate gatherings and product launches to conferences and gala nights, DSN Decors brings your events to life with stunning floral arrangements. We specialize in creating professional yet captivating floral décor that aligns with your brand’s vision, adding elegance and charm to every corporate or social event.",
     imgSrc:
       "https://github.com/CVSCharan/dsn-events-assets/blob/main/corporate-social-events-stock-img.jpg?raw=true",
   },
   {
     id: 8,
     category: "Housewarming Events",
-    desc: "Celebrate the joy of a new home with an elegantly planned Housewarming Event. Whether you prefer a traditional Griha Pravesh Puja or a modern get-together, we take care of every detail to make your gathering warm and memorable.",
+    desc: "Celebrate the joy of a new home with exquisite floral arrangements that enhance your Housewarming Event. Whether it’s a traditional Griha Pravesh Puja or a modern celebration, DSN Decors ensures every floral detail is thoughtfully curated to bring warmth, elegance, and beauty to your special day.",
     imgSrc:
       "https://github.com/CVSCharan/dsn-events-assets/blob/main/House-warming-stock-img.jpg?raw=true",
   },
