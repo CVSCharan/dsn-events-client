@@ -1,0 +1,236 @@
+.introMainContainer {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.bannerContainer {
+  height: 45%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(to bottom, #f5f5f5, #ececec);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 45%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bannerOne,
+.bannerTwo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 1rem;
+}
+
+.descContainer {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.introHeading {
+  color: #136207;
+  font-family: "Playwrite GB S", cursive;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.introSubHeading {
+  color: black;
+  font-size: 1rem;
+  text-align: justify;
+  padding: 1px;
+  line-height: 1.5;
+  font-weight: 300;
+  padding: 0.7rem;
+  width: 90%;
+  max-width: 900px;
+  font-family: "Montserrat", Sans-serif;
+}
+
+.btnContainer {
+  height: 10%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: linear-gradient(to bottom, #f5f5f5, #ececec);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.5rem;
+  background: linear-gradient(
+    90deg,
+    #43cea2,
+    #185a9d
+  ); /* Same gradient as navbar */
+  padding: 0.7rem 0.7rem;
+  border-radius: 1rem;
+  border: 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: 600;
+  font-family: "Playwrite GB S", cursive;
+  cursor: pointer;
+}
+
+/* Extra Small Mobile Devices (Portrait) */
+/* iPhone SE, older Android phones */
+@media only screen and (max-width: 320px) {
+  .introMainContainer {
+    height: auto;
+  }
+
+  .bannerContainer {
+    height: 40vh;
+    gap: 10px;
+    width: 95%;
+    padding: 0.3rem 0;
+    flex-direction: column;
+  }
+
+  .imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+
+  .introHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .introSubHeading {
+    font-size: 0.75rem;
+  }
+
+  .btnContainer {
+    width: 90%;
+    flex-direction: column;
+    padding: 0.3rem 0;
+  }
+
+  .button {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Mobile Devices (Portrait) */
+/* iPhone 6/7/8, Galaxy S8 */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .introMainContainer {
+    height: auto;
+  }
+
+  .bannerContainer {
+    height: 50vh;
+    gap: 10px;
+    width: 95%;
+    padding: 0.3rem 0;
+    flex-direction: column;
+  }
+
+  .imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+
+  .introHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .introSubHeading {
+    font-size: 0.9rem;
+  }
+
+  .btnContainer {
+    width: 90%;
+    flex-direction: column;
+    padding: 0.3rem 0;
+  }
+
+  .button {
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium Mobile Devices (Portrait) */
+/* iPhone 11 Pro, Google Pixel 2 */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .introMainContainer {
+    height: auto;
+  }
+
+  .bannerContainer {
+    height: 50vh;
+    gap: 10px;
+    width: 95%;
+    padding: 0.3rem 0;
+    flex-direction: column;
+  }
+
+  .imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+
+  .introHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .introSubHeading {
+    font-size: 0.9rem;
+  }
+
+  .btnContainer {
+    width: 90%;
+    flex-direction: column;
+    padding: 0.3rem 0;
+  }
+
+  .button {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}

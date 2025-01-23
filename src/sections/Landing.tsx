@@ -3,35 +3,33 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "../styles/Landing.module.css";
-import { Facebook, Instagram, Twitter } from "@mui/icons-material";
+import { Instagram } from "@mui/icons-material";
+import { motion } from "framer-motion";
+import { headContentAnimation, fadeAnimation } from "../utils/motion";
+import { landingBannerImages } from "@/utils/helpers";
 
 const Landing = () => {
-  const images = [
-    "https://github.com/CVSCharan/dsn-events-assets/blob/main/Landing-Slides11.jpeg?raw=true",
-    "https://github.com/CVSCharan/dsn-events-assets/blob/main/Landing-Slides10.jpeg?raw=true",
-    "https://github.com/CVSCharan/dsn-events-assets/blob/main/Landing-Slides8.jpeg?raw=true",
-    "https://github.com/CVSCharan/dsn-events-assets/blob/main/Landing-Slides3.jpeg?raw=true",
-    "https://github.com/CVSCharan/dsn-events-assets/blob/main/Landing-Slides4.jpeg?raw=true",
-    "https://github.com/CVSCharan/dsn-events-assets/blob/main/Landing-Slides5.jpeg?raw=true",
-    "https://github.com/CVSCharan/dsn-events-assets/blob/main/Landing-Slides6.jpeg?raw=true",
-    "https://github.com/CVSCharan/dsn-events-assets/blob/main/Landing-Slides7.jpeg?raw=true",
-  ];
-
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length); // Cycle through images
+      setCurrentImage((prev) => (prev + 1) % landingBannerImages.length); // Cycle through images
     }, 7000); // Change image every 7 seconds
 
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, [landingBannerImages.length]);
+
+  const logoVariant = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.6 } },
+    hover: { scale: 1.1, transition: { duration: 0.3 } },
+  };
 
   return (
     <section id="Landing" className={styles.landing}>
       <div className={styles.imageContainer}>
         <Image
-          src={images[currentImage]}
+          src={landingBannerImages[currentImage]}
           alt={`Slide ${currentImage + 1}`}
           fill
           sizes="100vw"
@@ -41,17 +39,30 @@ const Landing = () => {
       </div>
       <div className={styles.overlay}></div>
       <div className={styles.content}>
-        <h1 className="josefin-sans-text">DSN Events</h1>
-        <p>{`A Gowri Shankar's Venture`}</p>
+        <motion.h1
+          className="josefin-sans-text"
+          variants={logoVariant}
+          initial="hidden"
+          animate="visible"
+          whileHover="hover"
+        >
+          DSN Events
+        </motion.h1>
+        <motion.p
+          variants={logoVariant}
+          initial="hidden"
+          animate="visible"
+          whileHover="hover"
+        >{`A Gowri Shankar's Venture`}</motion.p>
         <div className={styles.socialIcons}>
-          <a
+          {/* <a
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
           >
             <Facebook className={styles.icon} fontSize="large" />
-          </a>
+          </a> */}
           <a
             href="https://instagram.com"
             target="_blank"
@@ -60,31 +71,24 @@ const Landing = () => {
           >
             <Instagram className={styles.icon} fontSize="large" />
           </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-          >
-            <Twitter className={styles.icon} fontSize="large" />
-          </a>
         </div>
-        <button
+        <motion.button
+          {...headContentAnimation}
           className={styles.contactButton}
           onClick={() => alert("Contact Form Coming Soon!")}
         >
           <h2 className={`${styles.contactUs} josefin-sans-text`}>
             Contact Us
           </h2>
-        </button>
-        <div className={styles.logoContainer}>
+        </motion.button>
+        <motion.div {...fadeAnimation} className={styles.logoContainer}>
           <Image
             src="/Images/GowriShankarLogo.jpeg"
             alt="Gowri Shankar Logo"
             height={150}
             width={150}
           />
-        </div>
+        </motion.div>
       </div>
     </section>
   );

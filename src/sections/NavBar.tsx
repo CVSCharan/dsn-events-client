@@ -24,27 +24,27 @@ const Navbar = () => {
         </div>
         <ul className={`${styles.navLinks} ${isOpen ? styles.active : ""}`}>
           <li>
-            <Link href="/" onClick={() => setIsOpen(false)}>
-              About
+            <Link href="/about-us" onClick={() => setIsOpen(false)}>
+              About Us
             </Link>
           </li>
           <li>
-            <Link href="/" onClick={() => setIsOpen(false)}>
+            <Link href="/services" onClick={() => setIsOpen(false)}>
               Services
             </Link>
           </li>
           <li>
-            <Link href="/" onClick={() => setIsOpen(false)}>
-              Gallery
+            <Link href="/stories" onClick={() => setIsOpen(false)}>
+              Stories
             </Link>
           </li>
           <li>
-            <Link href="/" onClick={() => setIsOpen(false)}>
+            <Link href="/function-hall" onClick={() => setIsOpen(false)}>
               Function Hall
             </Link>
           </li>
           <li>
-            <Link href="/" onClick={() => setIsOpen(false)}>
+            <Link href="/contact-us" onClick={() => setIsOpen(false)}>
               Contact Us
             </Link>
           </li>

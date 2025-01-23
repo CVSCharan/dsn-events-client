@@ -1,6 +1,10 @@
 import styles from "./page.module.css";
 import Landing from "../sections/Landing";
 import Navbar from "@/sections/NavBar";
+import HeroSection from "@/sections/Hero";
+import WhatsAppBtn from "@/components/WhatsAppBtn";
+import IntroSection from "@/sections/Intro";
+import ServicesSection from "@/sections/Services";
 
 export default function Home() {
   return (
@@ -8,6 +12,10 @@ export default function Home() {
       <Navbar />
       <div className={styles.mainBody}>
         <Landing />
+        <HeroSection />
+        <IntroSection />
+        <ServicesSection />
+        <WhatsAppBtn />
       </div>
     </main>
   );

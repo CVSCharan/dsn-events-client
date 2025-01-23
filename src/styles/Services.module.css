@@ -1,0 +1,172 @@
+.servicesMainContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesHeaderContainer {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.servicesHeader {
+  color: #136207;
+  font-family: "Playwrite GB S", cursive;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.servicesHeading {
+  color: royalblue;
+  font-family: "Playwrite GB S", cursive;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.servicesSubHeading {
+  color: black;
+  font-size: 1rem;
+  text-align: justify;
+  padding: 1px;
+  line-height: 1.5;
+  font-weight: 300;
+  padding: 0.7rem;
+  width: 90%;
+  max-width: 900px;
+  font-family: "Montserrat", Sans-serif;
+}
+
+/* Services Grid */
+.servicesContainer {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 1rem;
+  margin: 0.2rem 0;
+}
+
+.servicesGrid {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+/* Individual Card */
+.servicesCard {
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  width: 95%; /* Increased width for better alignment */
+}
+
+/* Image */
+.servicesImg {
+  width: 100%;
+  max-width: 320px; /* Increased from 220px to 250px */
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Service Title */
+.servicesCategory {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+/* Description */
+.servicesDesc {
+  font-size: 1rem; /* Slightly larger text */
+  font-weight: 400;
+  color: #444;
+  line-height: 1.6; /* Improved readability */
+  max-width: 320px; /* Increased from 270px to 320px */
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+/* Extra Small Mobile Devices (Portrait) */
+/* iPhone SE, older Android phones */
+@media only screen and (max-width: 320px) {
+  .servicesHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .servicesSubHeading {
+    font-size: 0.75rem;
+  }
+
+  .servicesCategory {
+    font-size: 1.3rem;
+  }
+
+  .servicesDesc {
+    font-size: 0.75rem;
+  }
+}
+
+/* Small Mobile Devices (Portrait) */
+/* iPhone 6/7/8, Galaxy S8 */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .servicesHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .servicesSubHeading {
+    font-size: 0.9rem;
+  }
+
+  .servicesCategory {
+    font-size: 1.3rem;
+  }
+
+  .servicesDesc {
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium Mobile Devices (Portrait) */
+/* iPhone 11 Pro, Google Pixel 2 */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .servicesHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .servicesSubHeading {
+    font-size: 0.9rem;
+  }
+
+  .servicesCategory {
+    font-size: 1.3rem;
+  }
+
+  .servicesDesc {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}

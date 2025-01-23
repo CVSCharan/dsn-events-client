@@ -55,7 +55,7 @@
 .navLinks li a {
   color: white;
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   padding: 5px 10px;
   border-radius: 5px;
   font-family: "Parkinsans", serif;
@@ -89,7 +89,7 @@
       #43cea2,
       #185a9d
     ); /* Same gradient as navbar */
-    padding: 15px;
+    padding: 1.5rem 3rem;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   }
@@ -97,7 +97,7 @@
   .navLinks li {
     margin: 10px 0;
     padding: 0.3rem 1rem;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     font-weight: 600;
   }
 
