@@ -50,7 +50,7 @@
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  gap: 1.5rem;
   padding: 0 1rem;
   margin: 0.2rem 0;
 }
@@ -76,7 +76,7 @@
 .servicesImg {
   width: 100%;
   max-width: 320px; /* Increased from 220px to 250px */
-  height: auto;
+  max-height: 280px;
   border-radius: 10px;
   object-fit: cover;
   margin-bottom: 1rem;
