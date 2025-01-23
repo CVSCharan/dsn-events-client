@@ -14,6 +14,7 @@
   overflow-x: hidden;
   position: relative;
   color: white;
+  background: linear-gradient(90deg, #c2dfff, #d4fcfc);
 }
 .mainBody {
   /* max-width: 80rem; 1280px; */
