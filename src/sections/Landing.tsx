@@ -64,7 +64,7 @@ const Landing = () => {
             <Facebook className={styles.icon} fontSize="large" />
           </a> */}
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/dsnevents?igsh=c2ptNXpiMXM3cHJp"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"

@@ -1,6 +1,6 @@
 .contactMainContainer {
   position: relative;
-  height: 55vh;
+  height: 60vh;
   width: 100vw;
   max-width: 80rem;
   display: flex;
@@ -18,7 +18,7 @@
 .imageContainer img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .overlay {
@@ -89,7 +89,7 @@
 /* iPhone SE, older Android phones */
 @media only screen and (max-width: 320px) {
   .contactMainContainer {
-    height: 70vh;
+    height: 75vh;
   }
 
   .emailForm h2 {

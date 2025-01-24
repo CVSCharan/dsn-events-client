@@ -58,14 +58,14 @@ export const servicesData: ServiceDataItem[] = [
     category: "Mehendi",
     desc: "The Mehendi Ceremony is a vibrant pre-wedding celebration filled with joy, music, and tradition. At DSN Decors, we enhance this occasion with stunning floral décor, lively seating arrangements, and vibrant marigold & jasmine garlands, creating an enchanting atmosphere that perfectly complements the artistry of henna.",
     imgSrc:
-      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Mehendi-service-img.jpeg?raw=true",
+      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Engagement-service-img.jpeg?raw=true",
   },
   {
     id: 5,
     category: "Sangeeth",
     desc: "Sangeeth is a night of music, dance, and celebration, and our décor sets the perfect mood for an unforgettable evening. DSN Decors brings the magic alive with dazzling floral backdrops, elegant stage setups, and mesmerizing lighting arrangements, ensuring a vibrant and energetic ambiance for your grand musical night.",
     imgSrc:
-      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Sangeeth-service-img.jpeg?raw=true",
+      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Engagement-service-img.jpeg?raw=true",
   },
   {
     id: 6,

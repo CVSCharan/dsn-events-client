@@ -1,5 +1,5 @@
 .fotterMainContainer {
-  height: 40vh;
+  height: 60vh;
   width: 100vw;
   background: linear-gradient(120deg, #232526, #414345, #00c6ff);
   color: white;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.3rem;
 }
 
 .fotterHeader {
@@ -23,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.3rem;
 }
 
 .socialMediaIcons {
@@ -48,6 +48,7 @@
   font-size: 1rem;
   font-family: "Parkinsans", serif;
   color: white;
+  font-weight: 500;
   text-align: center;
   margin-top: 10px;
   text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add depth to text */
@@ -94,11 +95,35 @@
   transform: scale(1.1); /* Slight zoom effect */
 }
 
+.fotterTxt {
+  font-family: "Montserrat", Sans-serif;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  line-height: 1.6;
+  letter-spacing: 0.03rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+.fotterSubTxt {
+  font-family: "Montserrat", Sans-serif;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  line-height: 1.6;
+  letter-spacing: 0.03rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
 /* Extra Small Mobile Devices (Portrait) */
 /* iPhone SE, older Android phones */
 @media only screen and (max-width: 320px) {
   .fotterMainContainer {
-    height: 75vh;
+    height: auto;
   }
 
   .fotterHeading {
@@ -117,16 +142,80 @@
   .quickLink {
     font-size: 0.8rem;
   }
+
+  .fotterTxt {
+    font-size: 0.8rem;
+  }
+
+  .fotterSubTxt {
+    font-size: 0.8rem;
+  }
 }
 
 /* Small Mobile Devices (Portrait) */
 /* iPhone 6/7/8, Galaxy S8 */
 @media only screen and (min-width: 321px) and (max-width: 375px) {
+  .fotterMainContainer {
+    height: auto;
+  }
+
+  .fotterHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .fotterSubHeading {
+    font-size: 0.9rem;
+  }
+
+  .fotterPara {
+    font-size: 0.8rem;
+  }
+
+  .quickLink {
+    font-size: 0.8rem;
+  }
+
+  .fotterTxt {
+    font-size: 0.8rem;
+  }
+
+  .fotterSubTxt {
+    font-size: 0.7rem;
+  }
 }
 
 /* Medium Mobile Devices (Portrait) */
 /* iPhone 11 Pro, Google Pixel 2 */
 @media only screen and (min-width: 376px) and (max-width: 425px) {
+  .fotterMainContainer {
+    height: auto;
+  }
+
+  .fotterHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .fotterSubHeading {
+    font-size: 0.9rem;
+  }
+
+  .fotterPara {
+    font-size: 0.8rem;
+  }
+
+  .quickLink {
+    font-size: 0.8rem;
+  }
+
+  .fotterTxt {
+    font-size: 0.8rem;
+  }
+
+  .fotterSubTxt {
+    font-size: 0.7rem;
+  }
 }
 
 /* Tablets (portrait and landscape) */

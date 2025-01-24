@@ -31,7 +31,7 @@
 /* iPhone SE, older Android phones */
 @media only screen and (max-width: 320px) {
   .heroMainContainer {
-    height: 40vh;
+    height: 50vh;
   }
 
   .heroHeading {
@@ -48,7 +48,7 @@
 /* iPhone 6/7/8, Galaxy S8 */
 @media only screen and (min-width: 321px) and (max-width: 375px) {
   .heroMainContainer {
-    height: 40vh;
+    height: 60vh;
   }
 
   .heroHeading {
@@ -65,7 +65,7 @@
 /* iPhone 11 Pro, Google Pixel 2 */
 @media only screen and (min-width: 376px) and (max-width: 425px) {
   .heroMainContainer {
-    height: 40vh;
+    height: 55vh;
   }
 
   .heroHeading {

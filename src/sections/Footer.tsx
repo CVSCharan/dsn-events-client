@@ -9,7 +9,7 @@ const FooterSection = () => {
       <div className={styles.fotterHeaderContainer}>
         <div className={styles.socialMediaIcons}>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/dsnevents?igsh=c2ptNXpiMXM3cHJp"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -54,6 +54,12 @@ const FooterSection = () => {
           Contact Us
         </Link>
       </div>
+      <h2 className={styles.fotterTxt}>
+        © 2025 All rights reserved - DSN Decors
+      </h2>
+      <h3 className={styles.fotterSubTxt}>
+        Designed and Developed with 💗 by CVS CHARAN
+      </h3>
     </footer>
   );
 };
