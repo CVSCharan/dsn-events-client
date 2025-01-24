@@ -1,10 +1,6 @@
 .navbar {
   height: 10vh;
-  background: linear-gradient(
-    90deg,
-    #43cea2,
-    #185a9d
-  ); /* Light Green to Deep Cyan */
+  background: linear-gradient(90deg, #232526, #414345, #00c6ff);
   color: white;
   padding: 0.7rem 1.5rem;
   position: sticky;

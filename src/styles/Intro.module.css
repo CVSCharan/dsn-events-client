@@ -93,11 +93,7 @@
   align-items: center;
   text-decoration: none;
   gap: 0.5rem;
-  background: linear-gradient(
-    90deg,
-    #43cea2,
-    #185a9d
-  ); /* Same gradient as navbar */
+  background: linear-gradient(90deg, #232526, #414345, #00c6ff);
   padding: 0.7rem 0.7rem;
   border-radius: 1rem;
   border: 0;
