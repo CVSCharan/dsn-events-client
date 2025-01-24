@@ -53,7 +53,7 @@ const Landing = () => {
           initial="hidden"
           animate="visible"
           whileHover="hover"
-        >{`A venture by Gowri Shankar Flower Decors`}</motion.p>
+        >{`A venture by Gowri Shankar Flower Decorators`}</motion.p>
         <div className={styles.socialIcons}>
           {/* <a
             href="https://facebook.com"

@@ -90,7 +90,7 @@ const IntroSection = () => {
         </div>
         <div className={styles.descContainer}>
           <h2 className={styles.introHeading}>
-            Unlock Your Dream Destination Wedding in Nellore
+            Unlock Your Dream Destination Wedding
           </h2>
           <h3 className={styles.introSubHeading}>
             {`Make your dream destination wedding a reality with DSN Decors, the
