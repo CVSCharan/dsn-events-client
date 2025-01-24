@@ -1,0 +1,134 @@
+.fotterMainContainer {
+  height: 40vh;
+  width: 100vw;
+  background: linear-gradient(120deg, #232526, #414345, #00c6ff);
+  color: white;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotterHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.fotterHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.socialMediaIcons {
+  padding: 1rem;
+}
+
+.icon {
+  fill: white !important; /* Default icon color */
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.fotterHeading {
+  font-size: 2rem;
+  color: white;
+  font-weight: 300;
+  margin: 0;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add depth to text */
+}
+
+.fotterSubHeading {
+  font-size: 1rem;
+  font-family: "Parkinsans", serif;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add depth to text */
+}
+
+.fotterPara {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 400;
+  margin: 0.5rem 0;
+  text-align: justify;
+  max-width: 700px;
+  line-height: 1.6;
+  font-family: "Montserrat", Sans-serif;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add depth to text */
+}
+
+.fotterQuickLinksContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.quickLink {
+  font-size: 1rem;
+  color: white;
+  font-family: "Montserrat", Sans-serif;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  line-height: 1.6;
+  letter-spacing: 0.03rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.quickLink:hover {
+  padding: 0.3rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2); /* Highlight effect */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Extra Small Mobile Devices (Portrait) */
+/* iPhone SE, older Android phones */
+@media only screen and (max-width: 320px) {
+  .fotterMainContainer {
+    height: 75vh;
+  }
+
+  .fotterHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .fotterSubHeading {
+    font-size: 0.9rem;
+  }
+
+  .fotterPara {
+    font-size: 0.8rem;
+  }
+
+  .quickLink {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small Mobile Devices (Portrait) */
+/* iPhone 6/7/8, Galaxy S8 */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+}
+
+/* Medium Mobile Devices (Portrait) */
+/* iPhone 11 Pro, Google Pixel 2 */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}

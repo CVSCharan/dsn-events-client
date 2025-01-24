@@ -6,6 +6,7 @@ import WhatsAppBtn from "@/components/WhatsAppBtn";
 import IntroSection from "@/sections/Intro";
 import ServicesSection from "@/sections/Services";
 import ContactSection from "@/sections/Contact";
+import FooterSection from "@/sections/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <IntroSection />
         <ContactSection />
         <ServicesSection />
+        <FooterSection />
         <WhatsAppBtn />
       </div>
     </main>

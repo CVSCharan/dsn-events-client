@@ -19,7 +19,7 @@ const ContactSection = () => {
       </div>
 
       <form className={styles.emailForm}>
-        <h2>Looking for the Most Innovative Decors</h2>
+        <h2>Looking for the Most Creative & Innovative Decors</h2>
         <div className={styles.inputContainer}>
           <input type="text" placeholder="Full Name" required />
           <input type="tel" placeholder="Mobile No." required />
@@ -27,7 +27,7 @@ const ContactSection = () => {
           <textarea placeholder="Message" rows={4} required></textarea>
           <button type="submit">
             Email
-            <SendIcon sx={{ fill: "#444" }} />
+            <SendIcon sx={{ fill: "whitesmoke" }} />
           </button>
         </div>
       </form>
