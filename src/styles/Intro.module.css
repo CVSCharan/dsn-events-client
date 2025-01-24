@@ -1,6 +1,7 @@
 .introMainContainer {
   height: 90vh;
   width: 100vw;
+  max-width: 80rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,7 +19,6 @@
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  background: linear-gradient(90deg, #d4fcfc, #c2dfff);
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -37,7 +37,7 @@
 .bannerOne,
 .bannerTwo {
   object-fit: cover;
-  width: 370px;
+  width: 350px;
   height: 250px;
   position: absolute;
   border-radius: 1rem;
@@ -80,7 +80,6 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: linear-gradient(90deg, #d4fcfc, #c2dfff);
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

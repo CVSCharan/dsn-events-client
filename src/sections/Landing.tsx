@@ -26,7 +26,7 @@ const Landing = () => {
   };
 
   return (
-    <section id="Landing" className={styles.landing}>
+    <section id="DSN Decors Landing" className={styles.landing}>
       <div className={styles.imageContainer}>
         <Image
           src={landingBannerImages[currentImage]}

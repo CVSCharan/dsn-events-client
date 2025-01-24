@@ -53,7 +53,7 @@ const IntroSection = () => {
   };
 
   return (
-    <section id="DSN Events Intro">
+    <section id="DSN Decors Intro">
       <div className={styles.introMainContainer}>
         <div className={styles.bannerContainer}>
           {/* Banner One - Slide Left on Change */}

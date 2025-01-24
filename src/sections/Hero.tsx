@@ -3,7 +3,7 @@ import styles from "../styles/Hero.module.css";
 
 const HeroSection = () => {
   return (
-    <section id="DSN Events Hero Section" className={styles.heroMainContainer}>
+    <section id="DSN Decors Hero Section" className={styles.heroMainContainer}>
       <h2 className={styles.heroHeading}>The Premier Floral Décors</h2>
       <h3 className={styles.heroSubHeading}>
         {`With over 30 years of expertise, DSN Decors, a proud venture of Gowri

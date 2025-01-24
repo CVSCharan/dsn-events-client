@@ -22,7 +22,7 @@ const ServicesSection = () => {
             <div className={styles.servicesCard}>
               <Image
                 src={service.imgSrc}
-                alt={`Services Img${service.id}`}
+                alt={`Services Img - ${service.category}`}
                 height={200}
                 width={200}
                 priority

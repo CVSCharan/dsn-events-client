@@ -12,10 +12,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={styles.navbar}>
+    <nav id="DSN Decors Nav" className={styles.navbar}>
       <div className={styles.container}>
         <Link href="/" className={`${styles.logo} macondo-regular`}>
-          DSN Events
+          DSN Decors
         </Link>
         <div className={styles.hamburger} onClick={toggleMenu}>
           <div className={styles.bar}></div>

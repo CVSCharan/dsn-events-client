@@ -5,6 +5,7 @@ import HeroSection from "@/sections/Hero";
 import WhatsAppBtn from "@/components/WhatsAppBtn";
 import IntroSection from "@/sections/Intro";
 import ServicesSection from "@/sections/Services";
+import ContactSection from "@/sections/Contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Landing />
         <HeroSection />
         <IntroSection />
+        <ContactSection />
         <ServicesSection />
         <WhatsAppBtn />
       </div>
