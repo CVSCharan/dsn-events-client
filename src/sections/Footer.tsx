@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Footer.module.css";
 import { Instagram } from "@mui/icons-material";
+import Link from "next/link";
 
 const FooterSection = () => {
   return (
@@ -34,24 +35,24 @@ const FooterSection = () => {
         </div>
       </div>
       <div className={styles.fotterQuickLinksContainer}>
-        <a href="/" className={styles.quickLink}>
+        <Link href="/" className={styles.quickLink}>
           Home
-        </a>
-        <a href="/about-us" className={styles.quickLink}>
+        </Link>
+        <Link href="/about-us" className={styles.quickLink}>
           About Us
-        </a>
-        <a href="/services" className={styles.quickLink}>
+        </Link>
+        <Link href="/services" className={styles.quickLink}>
           Services
-        </a>
-        <a href="/stories" className={styles.quickLink}>
+        </Link>
+        <Link href="/stories" className={styles.quickLink}>
           Stories
-        </a>
-        <a href="/function-hall" className={styles.quickLink}>
+        </Link>
+        <Link href="/function-hall" className={styles.quickLink}>
           Function Hall
-        </a>
-        <a href="/contact-us" className={styles.quickLink}>
+        </Link>
+        <Link href="/contact-us" className={styles.quickLink}>
           Contact Us
-        </a>
+        </Link>
       </div>
     </footer>
   );
