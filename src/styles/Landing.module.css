@@ -149,13 +149,13 @@
   }
 
   .logoContainer {
-    bottom: 10px; /* Reduce spacing for smaller screens */
+    bottom: 0px; /* Reduce spacing for smaller screens */
     right: 10px;
   }
 
   .logoContainer img {
-    width: 220px; /* Adjust size for responsiveness */
-    height: 220px;
+    width: 150px; /* Adjust size for responsiveness */
+    height: 150px;
   }
 }
 
@@ -175,13 +175,13 @@
   }
 
   .logoContainer {
-    bottom: 10px; /* Reduce spacing for smaller screens */
+    bottom: 0px; /* Reduce spacing for smaller screens */
     right: 10px;
   }
 
   .logoContainer img {
-    width: 220px; /* Adjust size for responsiveness */
-    height: 220px;
+    width: 150px; /* Adjust size for responsiveness */
+    height: 150px;
   }
 }
 
@@ -201,13 +201,13 @@
   }
 
   .logoContainer {
-    bottom: 10px; /* Reduce spacing for smaller screens */
+    bottom: 0px; /* Reduce spacing for smaller screens */
     right: 10px;
   }
 
   .logoContainer img {
-    width: 220px; /* Adjust size for responsiveness */
-    height: 220px;
+    width: 150px; /* Adjust size for responsiveness */
+    height: 150px;
   }
 }
 
