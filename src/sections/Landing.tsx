@@ -81,7 +81,6 @@ const Landing = () => {
         <motion.button
           {...headContentAnimation}
           className={styles.contactButton}
-          onClick={() => alert("Contact Form Coming Soon!")}
         >
           <a
             href="tel:+91 8008190991"
