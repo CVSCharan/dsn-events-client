@@ -8,7 +8,7 @@ const ServicesSection = () => {
     <section id="DSN Events Services" className={styles.servicesMainContainer}>
       <div className={styles.servicesHeaderContainer}>
         <h2 className={styles.servicesHeader}>OUR SERVICES</h2>
-        <h2 className={styles.servicesHeading}>Services by DSN Décors</h2>
+        <h2 className={styles.servicesHeading}>Services by DSN Events</h2>
         <h3 className={styles.servicesSubHeading}>
           {`At DSN Events, we specialize in crafting extraordinary celebrations,
           ensuring every moment is cherished for a lifetime. From intimate

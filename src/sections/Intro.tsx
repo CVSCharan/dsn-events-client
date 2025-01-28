@@ -93,7 +93,7 @@ const IntroSection = () => {
             Unlock Your Dream Destination Wedding
           </h2>
           <h3 className={styles.introSubHeading}>
-            {`Make your dream destination wedding a reality with DSN Decors, the
+            {`Make your dream destination wedding a reality with DSN Events, the
             premier choice for premium floral décor in Andhra Pradesh, India.
             Whether you envision a traditional ceremony or a luxurious resort
             celebration, we seamlessly blend rich traditions with modern
