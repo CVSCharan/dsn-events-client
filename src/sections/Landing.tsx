@@ -83,9 +83,12 @@ const Landing = () => {
           className={styles.contactButton}
           onClick={() => alert("Contact Form Coming Soon!")}
         >
-          <h2 className={`${styles.contactUs} josefin-sans-text`}>
+          <a
+            href="tel:+91 8008190991"
+            className={`${styles.contactUs} josefin-sans-text`}
+          >
             Contact Us
-          </h2>
+          </a>
         </motion.button>
         <motion.div {...fadeAnimation} className={styles.logoContainer}>
           <Image
