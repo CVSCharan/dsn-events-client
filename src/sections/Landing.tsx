@@ -53,6 +53,12 @@ const Landing = () => {
           initial="hidden"
           animate="visible"
           whileHover="hover"
+        >{`Over 30+ years of Expertise`}</motion.p>
+        <motion.p
+          variants={logoVariant}
+          initial="hidden"
+          animate="visible"
+          whileHover="hover"
         >{`A venture by Gowri Shankar Flower Decorators`}</motion.p>
         <div className={styles.socialIcons}>
           {/* <a

@@ -1,8 +1,58 @@
+/* page.module.css */
+
 .mainBody {
-  /* max-width: 80rem; 1280px; */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
   overflow-x: hidden;
-  position: relative;
+  background: #f9f9f9;
   color: #333;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.heroSection {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #a8d6ff, #f9f9f9);
+  color: #222;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0056a6;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: #444;
+}
+
+/* Content Section */
+.contentSection {
+  padding: 2rem 0;
+}
+
+.contentWrapper {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #0056a6;
+}
+
+.sectionText {
+  font-size: 1rem;
+  color: #555;
 }
