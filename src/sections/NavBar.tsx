@@ -33,11 +33,11 @@ const Navbar = () => {
               Services
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/stories" onClick={() => setIsOpen(false)}>
               Stories
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/function-hall" onClick={() => setIsOpen(false)}>
               Function Hall

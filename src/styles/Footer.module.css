@@ -1,8 +1,8 @@
 .fotterMainContainer {
   height: 60vh;
   width: 100vw;
-  background: linear-gradient(120deg, #232526, #414345, #00c6ff);
-  color: white;
+  background: linear-gradient(120deg, #ff9a9e, #fad0c4, #a18cd1);
+  color: #444;
   padding: 1rem 1.5rem;
   display: flex;
   flex-direction: column;
@@ -31,14 +31,14 @@
 }
 
 .icon {
-  fill: white !important; /* Default icon color */
+  fill: #222 !important; /* Default icon color */
   transition: transform 0.3s ease, color 0.3s ease;
   text-decoration: none;
 }
 
 .fotterHeading {
   font-size: 2rem;
-  color: white;
+  color: #222;
   font-weight: 300;
   margin: 0;
   text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add depth to text */
@@ -47,7 +47,7 @@
 .fotterSubHeading {
   font-size: 1rem;
   font-family: "Parkinsans", serif;
-  color: white;
+  color: #222;
   font-weight: 500;
   text-align: center;
   margin-top: 10px;
@@ -56,14 +56,13 @@
 
 .fotterPara {
   font-size: 0.8rem;
-  color: white;
+  color: #222;
   font-weight: 400;
   margin: 0.5rem 0;
   text-align: justify;
   max-width: 700px;
   line-height: 1.6;
   font-family: "Montserrat", Sans-serif;
-  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add depth to text */
 }
 
 .fotterQuickLinksContainer {
@@ -78,9 +77,9 @@
 
 .quickLink {
   font-size: 1rem;
-  color: white;
+  color: #222;
   font-family: "Montserrat", Sans-serif;
-  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
   text-decoration: none;
   line-height: 1.6;
   letter-spacing: 0.03rem;
@@ -103,7 +102,7 @@
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
-  color: whitesmoke;
+  color: #222;
   margin-top: 10px;
 }
 
@@ -115,7 +114,7 @@
   font-size: 0.8rem;
   font-weight: 400;
   text-align: center;
-  color: whitesmoke;
+  color: #222;
   margin-top: 10px;
 }
 

@@ -118,7 +118,7 @@ const IntroSection = () => {
             className={styles.button}
             href="tel:+91 8008190991"
           >
-            <PhoneInTalkIcon sx={{ fontSize: "20px", fill: "white" }} /> Talk to
+            <PhoneInTalkIcon sx={{ fontSize: "20px", fill: "#222" }} /> Talk to
             an expert
           </motion.a>
           <motion.div
@@ -130,7 +130,7 @@ const IntroSection = () => {
             className={styles.button}
             onClick={handleWhatsAppClick}
           >
-            <WhatsAppIcon sx={{ fontSize: "20px", fill: "white" }} />
+            <WhatsAppIcon sx={{ fontSize: "20px", fill: "#222" }} />
             WhatsApp Us
           </motion.div>
         </div>
