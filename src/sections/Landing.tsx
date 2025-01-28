@@ -89,10 +89,10 @@ const Landing = () => {
         </motion.button>
         <motion.div {...fadeAnimation} className={styles.logoContainer}>
           <Image
-            src="/Images/GowriShankarLogo.jpeg"
+            src="/Images/Logo_DSN.PNG"
             alt="Gowri Shankar Logo"
-            height={150}
-            width={150}
+            height={200}
+            width={200}
           />
         </motion.div>
       </div>

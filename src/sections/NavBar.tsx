@@ -17,38 +17,6 @@ const Navbar = () => {
         <Link href="/" className={`${styles.logo} macondo-regular`}>
           DSN Decors
         </Link>
-        <div className={styles.hamburger} onClick={toggleMenu}>
-          <div className={styles.bar}></div>
-          <div className={styles.bar}></div>
-          <div className={styles.bar}></div>
-        </div>
-        <ul className={`${styles.navLinks} ${isOpen ? styles.active : ""}`}>
-          <li>
-            <Link href="/about-us" onClick={() => setIsOpen(false)}>
-              About Us
-            </Link>
-          </li>
-          <li>
-            <Link href="/services" onClick={() => setIsOpen(false)}>
-              Services
-            </Link>
-          </li>
-          {/* <li>
-            <Link href="/stories" onClick={() => setIsOpen(false)}>
-              Stories
-            </Link>
-          </li> */}
-          <li>
-            <Link href="/function-hall" onClick={() => setIsOpen(false)}>
-              Function Hall
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact-us" onClick={() => setIsOpen(false)}>
-              Contact Us
-            </Link>
-          </li>
-        </ul>
       </div>
     </nav>
   );

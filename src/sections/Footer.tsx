@@ -34,7 +34,7 @@ const FooterSection = () => {
           </p>
         </div>
       </div>
-      <div className={styles.fotterQuickLinksContainer}>
+      {/* <div className={styles.fotterQuickLinksContainer}>
         <Link href="/" className={styles.quickLink}>
           Home
         </Link>
@@ -53,7 +53,7 @@ const FooterSection = () => {
         <Link href="/contact-us" className={styles.quickLink}>
           Contact Us
         </Link>
-      </div>
+      </div> */}
       <h2 className={styles.fotterTxt}>
         © 2025 All rights reserved - DSN Decors
       </h2>

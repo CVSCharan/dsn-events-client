@@ -37,7 +37,7 @@ export const servicesData: ServiceDataItem[] = [
     category: "Marriage",
     desc: "Your wedding décor sets the stage for a truly magical celebration, and we ensure every detail reflects elegance and sophistication. From breathtaking floral arrangements to stunning stage setups, DSN Decors creates an enchanting ambiance tailored to your vision, making your special day truly unforgettable.",
     imgSrc:
-      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Marriage-service-img.jpeg?raw=true",
+      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Marriage-new-img.JPG?raw=true",
   },
   {
     id: 2,
@@ -51,28 +51,28 @@ export const servicesData: ServiceDataItem[] = [
     category: "Engagement",
     desc: "Celebrate the beginning of your forever with exquisite floral décor for your Engagement Ceremony. At DSN Decors, we craft enchanting floral arrangements, elegant stage backdrops, and romantic settings that perfectly capture the essence of your love story, creating a breathtaking ambiance for your special moment.",
     imgSrc:
-      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Engagement-service-img.jpeg?raw=true",
+      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Engagement-new-img.JPG?raw=true",
   },
   {
     id: 4,
     category: "Mehendi",
     desc: "The Mehendi Ceremony is a vibrant pre-wedding celebration filled with joy, music, and tradition. At DSN Decors, we enhance this occasion with stunning floral décor, lively seating arrangements, and vibrant marigold & jasmine garlands, creating an enchanting atmosphere that perfectly complements the artistry of henna.",
     imgSrc:
-      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Engagement-service-img.jpeg?raw=true",
+      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Mehendi-img.jpeg?raw=true",
   },
   {
     id: 5,
     category: "Sangeeth",
     desc: "Sangeeth is a night of music, dance, and celebration, and our décor sets the perfect mood for an unforgettable evening. DSN Decors brings the magic alive with dazzling floral backdrops, elegant stage setups, and mesmerizing lighting arrangements, ensuring a vibrant and energetic ambiance for your grand musical night.",
     imgSrc:
-      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Engagement-service-img.jpeg?raw=true",
+      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Sangeeth-new-img.png?raw=true",
   },
   {
     id: 6,
     category: "Receptions",
     desc: "Celebrate your union with stunning floral décor for your Wedding Reception. At DSN Decors, we design elegant floral arrangements, grand centerpieces, and captivating backdrops that elevate the atmosphere, creating a sophisticated and unforgettable setting for your special evening.",
     imgSrc:
-      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Receptions-services-img.jpeg?raw=true",
+      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Receptions.JPG?raw=true",
   },
   {
     id: 7,
@@ -86,10 +86,17 @@ export const servicesData: ServiceDataItem[] = [
     category: "Baby Showers",
     desc: "Welcome your little one with a heartwarming Baby Shower, adorned with our enchanting floral décor. From charming floral arrangements to personalized touches, DSN Decors creates a warm and delightful atmosphere, making this special day unforgettable for parents-to-be and their guests.",
     imgSrc:
-      "https://github.com/CVSCharan/dsn-events-assets/blob/main/baby-showers-stock-img.jpg?raw=true",
+      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Baby-Shower-img-new.jpg?raw=true",
   },
   {
     id: 9,
+    category: "Naming Ceremony",
+    desc: "Celebrate your little one’s special milestone with our beautifully curated naming ceremony services. We provide seamless event planning, elegant décor, and personalized rituals to make this joyous occasion memorable for you and your loved ones. Let us create a heartfelt celebration that reflects your traditions and happiness.",
+    imgSrc:
+      "https://github.com/CVSCharan/dsn-events-assets/blob/main/Naming-Cermony-img.jpeg?raw=true",
+  },
+  {
+    id: 10,
     category: "Corporate & Social Events",
     desc: "From corporate gatherings and product launches to conferences and gala nights, DSN Decors brings your events to life with stunning floral arrangements. We specialize in creating professional yet captivating floral décor that aligns with your brand’s vision, adding elegance and charm to every corporate or social event.",
     imgSrc:
