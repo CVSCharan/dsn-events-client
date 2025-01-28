@@ -7,9 +7,9 @@ import styles from "../styles/NavBar.module.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   return (
     <nav id="DSN Decors Nav" className={styles.navbar}>

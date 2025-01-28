@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Footer.module.css";
 import { Instagram } from "@mui/icons-material";
-import Link from "next/link";
+// import Link from "next/link";
 
 const FooterSection = () => {
   return (
