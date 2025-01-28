@@ -26,7 +26,7 @@ const Landing = () => {
   };
 
   return (
-    <section id="DSN Decors Landing" className={styles.landing}>
+    <section id="DSN Events Landing" className={styles.landing}>
       <div className={styles.imageContainer}>
         <Image
           src={landingBannerImages[currentImage]}
@@ -46,7 +46,7 @@ const Landing = () => {
           animate="visible"
           whileHover="hover"
         >
-          DSN Décors
+          DSN Events
         </motion.h1>
         <motion.p
           variants={logoVariant}

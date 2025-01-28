@@ -53,7 +53,7 @@ const IntroSection = () => {
   };
 
   return (
-    <section id="DSN Decors Intro">
+    <section id="DSN Events Intro">
       <div className={styles.introMainContainer}>
         <div className={styles.bannerContainer}>
           {/* Banner One - Slide Left on Change */}
@@ -102,7 +102,7 @@ const IntroSection = () => {
           </h3>
           <h3 className={styles.introSubHeading}>
             {`With our expertise in premium floral décor and meticulous attention
-            to detail, DSN Decors ensures a stress-free journey from concept to
+            to detail, DSN Events ensures a stress-free journey from concept to
             execution. Having served clients across PAN India, we are your
             trusted partner in curating breathtaking floral arrangements for a
             flawless wedding celebration in Andhra Pradesh.`}

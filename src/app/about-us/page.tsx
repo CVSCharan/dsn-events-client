@@ -23,7 +23,7 @@ const AboutUsPage = () => {
             initial="hidden"
             animate="visible"
           >
-            DSN Décors
+            DSN Events
           </motion.h1>
           <motion.p
             className={styles.heroSubtitle}

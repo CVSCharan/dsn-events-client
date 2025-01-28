@@ -98,7 +98,7 @@
 .contactButton {
   margin-top: 20px;
   padding: 10px 20px;
-  background: linear-gradient(120deg, #ff9a9e, #fad0c4, #a18cd1);
+  background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -107,12 +107,7 @@
 
 .contactButton:hover {
   transform: scale(1.1); /* Scale up on hover */
-  background: linear-gradient(
-    120deg,
-    #ff9a9e,
-    #fad0c4,
-    #a18cd1
-  ); /* Reverse gradient */
+  background: linear-gradient(180deg, #e0c3fc, #8ec5fc); /* Reverse gradient */
 }
 
 .contactUs {

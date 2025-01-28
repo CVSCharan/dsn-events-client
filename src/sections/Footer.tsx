@@ -5,7 +5,7 @@ import { Instagram } from "@mui/icons-material";
 
 const FooterSection = () => {
   return (
-    <footer id="DSN Decors Footer" className={styles.fotterMainContainer}>
+    <footer id="DSN Events Footer" className={styles.fotterMainContainer}>
       <div className={styles.fotterHeaderContainer}>
         <div className={styles.socialMediaIcons}>
           <a
@@ -19,13 +19,13 @@ const FooterSection = () => {
         </div>
         <div className={styles.fotterHeader}>
           <h2 className={`${styles.fotterHeading} josefin-sans-text`}>
-            DSN Decors
+            DSN Events
           </h2>
           <h3 className={styles.fotterSubHeading}>
             A venture by Gowri Shankar Flower Decorators
           </h3>
           <p className={styles.fotterPara}>
-            {`At DSN Decors, we bring dreams to life with our exquisite event
+            {`At DSN Events, we bring dreams to life with our exquisite event
             decoration services. With years of expertise in the industry, we
             specialize in creating stunning setups for weddings, receptions,
             corporate events, birthday celebrations, and more. Our team of
@@ -55,7 +55,7 @@ const FooterSection = () => {
         </Link>
       </div> */}
       <h2 className={styles.fotterTxt}>
-        © 2025 All rights reserved - DSN Decors
+        © 2025 All rights reserved - DSN Events
       </h2>
       <h3 className={styles.fotterSubTxt}>
         Designed and Developed with 💗 by CVS CHARAN

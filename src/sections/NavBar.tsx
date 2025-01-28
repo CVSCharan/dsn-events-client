@@ -12,10 +12,10 @@ const Navbar = () => {
   // };
 
   return (
-    <nav id="DSN Decors Nav" className={styles.navbar}>
+    <nav id="DSN Events Nav" className={styles.navbar}>
       <div className={styles.container}>
         <Link href="/" className={`${styles.logo} macondo-regular`}>
-          DSN Decors
+          DSN Events
         </Link>
       </div>
     </nav>
