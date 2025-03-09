@@ -1,7 +1,9 @@
+"use client";
+
 import React from "react";
 import styles from "../styles/Hero.module.css";
-// Make sure you have framer-motion installed and imported correctly
 import { motion } from "framer-motion";
+import LocalFloristIcon from "@mui/icons-material/LocalFlorist";
 
 const HeroSection = () => {
   const textVariants = {
@@ -31,29 +33,60 @@ const HeroSection = () => {
 
   return (
     <section id="DSN Events Hero Section" className={styles.heroMainContainer}>
-      <div className={styles.decorElement}>
-        <div className={styles.floralIcon}>✿</div>
-      </div>
+      <motion.div
+        className={styles.decorElement}
+        variants={decorVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <LocalFloristIcon
+          sx={{ fontSize: "30px", fill: "rgba(65, 105, 225, 0.2)" }}
+        />
+      </motion.div>
 
-      <div className={styles.contentWrapper}>
-        <div className={styles.headingContainer}>
+      <motion.div
+        className={styles.contentWrapper}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        <motion.div
+          className={styles.headingContainer}
+          custom={0}
+          variants={textVariants}
+          initial="hidden"
+          animate="visible"
+        >
           <h2 className={styles.heroHeading}>The Premier Floral Décors</h2>
           <div className={styles.headingUnderline}></div>
-        </div>
+        </motion.div>
 
-        <h3 className={styles.heroSubHeading}>
+        <motion.h3
+          className={styles.heroSubHeading}
+          custom={1}
+          variants={textVariants}
+          initial="hidden"
+          animate="visible"
+        >
           {`With over 30 years of expertise, DSN Events, a proud venture of Gowri
           Shankar Flower Decorators, is a premier provider of floral décor in Andhra
           Pradesh, India. Whether it's a grand celebration or an intimate
           gathering, we bring artistry, precision, and elegance to every floral
           arrangement. Experience seamless planning and flawless execution,
           ensuring breathtaking décor tailored to perfection.`}
-        </h3>
-      </div>
+        </motion.h3>
+      </motion.div>
 
-      <div className={`${styles.decorElement} ${styles.bottomRight}`}>
-        <div className={styles.floralIcon}>✿</div>
-      </div>
+      <motion.div
+        className={`${styles.decorElement} ${styles.bottomRight}`}
+        variants={decorVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <LocalFloristIcon
+          sx={{ fontSize: "30px", fill: "rgba(65, 105, 225, 0.2)" }}
+        />
+      </motion.div>
     </section>
   );
 };
