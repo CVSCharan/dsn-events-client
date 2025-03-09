@@ -1,83 +1,145 @@
 .heroMainContainer {
-  height: 30vh;
-  width: 100vw;
+  position: relative;
+  min-height: 40vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem; /* Added padding for a spacious feel */
+  padding: 3rem 1rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(248, 248, 255, 0.95)
+  );
+  overflow: hidden;
+}
+
+.contentWrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+/* Add this to your existing CSS */
+.floralIcon {
+  font-size: 30px;
+  color: rgba(65, 105, 225, 0.2);
+}
+
+.headingContainer {
+  position: relative;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .heroHeading {
   color: royalblue;
   font-family: "Playwrite GB S", cursive;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.headingUnderline {
+  height: 3px;
+  width: 80px;
+  background: linear-gradient(90deg, royalblue, #a0b9ff);
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .heroSubHeading {
-  font-size: 1rem; /* Slightly larger text */
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
   font-weight: 400;
-  color: #444;
-  line-height: 1.6;
-  text-align: justify;
+  text-align: center;
   padding: 0.7rem;
   width: 90%;
   max-width: 900px;
   font-family: "Montserrat", Sans-serif;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(65, 105, 225, 0.1);
+}
+
+.decorElement {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  transform: rotate(-15deg);
+}
+
+.bottomRight {
+  top: auto;
+  left: auto;
+  bottom: 20px;
+  right: 20px;
+  transform: rotate(15deg);
 }
 
 /* Extra Small Mobile Devices (Portrait) */
-/* iPhone SE, older Android phones */
 @media only screen and (max-width: 320px) {
   .heroMainContainer {
-    height: 50vh;
+    padding: 2rem 1rem;
   }
 
   .heroHeading {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
   }
 
   .heroSubHeading {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    padding: 0.5rem;
   }
 }
 
 /* Small Mobile Devices (Portrait) */
-/* iPhone 6/7/8, Galaxy S8 */
 @media only screen and (min-width: 321px) and (max-width: 375px) {
   .heroMainContainer {
-    height: 60vh;
+    padding: 2.5rem 1rem;
   }
 
   .heroHeading {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
   .heroSubHeading {
     font-size: 0.9rem;
+    line-height: 1.6;
   }
 }
 
 /* Medium Mobile Devices (Portrait) */
-/* iPhone 11 Pro, Google Pixel 2 */
 @media only screen and (min-width: 376px) and (max-width: 425px) {
-  .heroMainContainer {
-    height: 55vh;
-  }
-
   .heroHeading {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-align: center;
   }
 
   .heroSubHeading {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 }
 
 /* Tablets (portrait and landscape) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .heroHeading {
+    font-size: 2.2rem;
+  }
+
+  .heroSubHeading {
+    font-size: 1.1rem;
+    max-width: 700px;
+  }
 }

@@ -4,6 +4,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1rem;
+}
+
+.decorativeLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #004d00, #4caf50);
+}
+
+.decorativeLine:last-child {
+  top: auto;
+  bottom: 0;
 }
 
 .servicesHeaderContainer {
@@ -22,14 +37,22 @@
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.6;
+  letter-spacing: 3px;
 }
 
 .servicesHeading {
+  font-size: 2.5rem;
+  font-weight: 700;
   color: royalblue;
+  margin-bottom: 1rem;
   font-family: "Playwrite GB S", cursive;
-  font-size: 1.7rem;
-  font-weight: 600;
-  line-height: 1.6;
+}
+
+.headingUnderline {
+  height: 3px;
+  width: 80px;
+  background: linear-gradient(90deg, royalblue, #a0b9ff);
+  margin: 0 auto;
 }
 
 .servicesSubHeading {
@@ -40,24 +63,25 @@
   text-align: justify;
   padding: 0.7rem;
   width: 90%;
-  max-width: 900px;
+  max-width: 800px;
   font-family: "Montserrat", Sans-serif;
 }
 
 /* Services Grid */
 .servicesContainer {
   width: 100%;
-  max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  padding: 0 1rem;
-  margin: 0.2rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0.2rem auto;
 }
 
 .servicesGrid {
   padding: 0.5rem;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /* Individual Card */
@@ -164,8 +188,4 @@
   .servicesDesc {
     font-size: 0.9rem;
   }
-}
-
-/* Tablets (portrait and landscape) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
 }
